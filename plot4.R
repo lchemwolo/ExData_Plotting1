@@ -22,7 +22,7 @@ with (dataToUse,{
   axis(2)
   
   #draw the x axis
-  axis(1,at=c(0,1440,2880),labels=c("Thur","Fri","Sat"),tick=TRUE)
+  axis(1,at=c(0,1440,2880),labels=c("Thu","Fri","Sat"),tick=TRUE)
   
   #surround graph with box
   box()
@@ -34,7 +34,7 @@ with (dataToUse,{
   axis(2)
   
   #draw the x axis
-  axis(1,at=c(0,1440,2880),labels=c("Thur","Fri","Sat"),tick=TRUE)
+  axis(1,at=c(0,1440,2880),labels=c("Thu","Fri","Sat"),tick=TRUE)
   
   #surround graph with box
   box()
@@ -50,7 +50,7 @@ with (dataToUse,{
   axis(2)
   
   #draw the x axis
-  axis(1,at=c(0,1440,2880),labels=c("Thur","Fri","Sat"),tick=TRUE)
+  axis(1,at=c(0,1440,2880),labels=c("Thu","Fri","Sat"),tick=TRUE)
   legend("topright",c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),bty="n",lty=1,col=c("black","red","blue"))
   box()
   
@@ -61,7 +61,7 @@ with (dataToUse,{
   axis(2)
   
   #draw the x axis
-  axis(1,at=c(0,1440,2880),labels=c("Thur","Fri","Sat"),tick=TRUE)
+  axis(1,at=c(0,1440,2880),labels=c("Thu","Fri","Sat"),tick=TRUE)
   
   #surround graph with box
   box()

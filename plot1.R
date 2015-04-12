@@ -2,7 +2,7 @@
 thedata <- read.table("household_power_consumption.txt",stringsAsFactors=FALSE, header=TRUE, sep=";",colClasses=c("character","character","numeric","numeric","numeric","numeric","numeric","numeric","numeric"),na.strings=c("?"))
 
 #create the device object
-png(file = "plot2.png")
+png(file = "plot1.png")
 
 #subset to get only data where value for Date is either 1/2/2007 or 2/2/2007
 dataToUse <- subset(thedata, Date=="1/2/2007" | Date=="2/2/2007")

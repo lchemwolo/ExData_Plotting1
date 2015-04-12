@@ -19,7 +19,7 @@ plot(dataToUse$Global_active_power, axes=F, typ='l', ann=T,ylab="Global Active P
 axis(2)
 
 #draw the x axis
-axis(1,at=c(0,1440,2880),labels=c("Thur","Fri","Sat"),tick=TRUE)
+axis(1,at=c(0,1440,2880),labels=c("Thu","Fri","Sat"),tick=TRUE)
 
 #surround graph with box
 box()
